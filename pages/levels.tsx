@@ -62,7 +62,7 @@ const StoriesPage: React.FC = () => (
             
             <Text sx={{ fontWeight: 'bold', mb: 2, fontSize: 2 }}>How to Join</Text>
             <Box as="ul" sx={{ pl: 0, mb: 3, fontSize: 1, listStyle: 'none', textAlign: 'center' }}>
-              <li>Apply at <a href="https://apply.hackclub.com" target="_blank" rel="noopener">apply.hackclub.com</a></li>
+              <li>Apply at <a href="https://apply.hackclub.com" target="_blank" rel="noopener" style={{ color: '#5bc0de', textDecoration: 'underline' }}>apply.hackclub.com</a></li>
               <li>Applications are reviewed for red flags</li>
               <li>Specific approval criteria are to be determined</li>
             </Box>
